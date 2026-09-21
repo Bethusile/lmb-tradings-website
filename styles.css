@@ -1,0 +1,14 @@
+@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}
+section[id] { scroll-margin-top: 110px; }
+#nav-indicator {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  background-color: #f5c400;
+  transition: left 0.35s cubic-bezier(0.25, 1, 0.5, 1), width 0.35s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.25s ease;
+  pointer-events: none;
+  z-index: 30;
+}
+.nav-item {
+  transition: color 0.25s ease;
+}
