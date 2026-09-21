@@ -655,8 +655,16 @@
     let isClickScrolling = false;
     let clickTimeout = null;
 
-    const SCROLL_THRESHOLD = 160;
     const NAVBAR_OFFSET = 120;
+
+    function getHeroScrollThreshold() {
+      const heroSection = document.getElementById('hero');
+      const header = document.getElementById('main-header');
+      if (!heroSection) return 160;
+      const headerHeight = header ? header.offsetHeight : 0;
+      // Switch navbar to light only once the hero section has fully scrolled past it
+      return heroSection.offsetTop + heroSection.offsetHeight - headerHeight;
+    }
 
     const sectionIds = ['hero', 'about-lmb', 'our-services', 'values', 'our-work', 'contact-us'];
 
@@ -755,7 +763,7 @@
     function onScrollHandler() {
       if (!ticking) {
         window.requestAnimationFrame(() => {
-          const scrolled = window.scrollY > SCROLL_THRESHOLD;
+          const scrolled = window.scrollY > getHeroScrollThreshold();
           let navbarStyleChanged = false;
           if (scrolled !== isLightNavbar) {
             isLightNavbar = scrolled;
