@@ -21,8 +21,8 @@ window.LMB_PROJECTS = [
   {
     id: "project-70911",
     status: "COMPLETED",
-    tag: "MULTI-STOREY DWELLING",
-    name: "Brickwork",
+    tag: "Multi-Storey Dwelling",
+    name: "Building",
     hero: "images/projects/project-70911-1.jpg",
     gallery: [
       "images/projects/project-70911-1.jpg",
@@ -34,8 +34,8 @@ window.LMB_PROJECTS = [
   {
     id: "project-g",
     status: "COMPLETED",
-    tag: "2-STOREY DWELLING",
-    name: "Brickwork",
+    tag: "2-storey Dwelling",
+    name: "Building",
     hero: "images/projects/project-g-1.jpg",
     gallery: [
       "images/projects/project-g-1.jpg",
@@ -60,8 +60,8 @@ window.LMB_PROJECTS = [
   {
     id: "lukwethu",
     status: "COMPLETED",
-    tag: "REGIONAL WATER SUPPLY",
-    name: "Plumbing",
+    tag: "Backup Water Systems",
+    name: "Civil Works",
     hero: "images/projects/lukwethu-1.jpg",
     gallery: [
       "images/projects/lukwethu-1.jpg",
@@ -84,8 +84,8 @@ window.LMB_PROJECTS = [
   {
     id: "cbs",
     status: "COMPLETED",
-    tag: "COMMERCIAL RENOVATION",
-    name: "Painting",
+    tag: "Commercial Renovation",
+    name: "Interior",
     hero: "images/projects/cbs-1.jpg",
     gallery: [
       "images/projects/cbs-1.jpg"
@@ -121,20 +121,20 @@ window.LMB_PROJECTS = [
   {
     id: "jixini",
     status: "COMPLETED",
-    tag: "2-STOREY DWELLING",
-    name: "Brickwork",
+    tag: "Single-storey Dwelling",
+    name: "Building",
     hero: "images/projects/jixini-1.jpg",
     gallery: [
       "images/projects/jixini-1.jpg",
       "images/projects/jixini-2.jpg"
     ],
-    description: "Two-storey family dwelling managed from initial site planning through to a completed home, including brickwork, roofing and exterior finishes."
+    description: "Single-storey family dwelling managed from initial site planning through to a completed home, including brickwork, roofing and exterior finishes."
   },
   {
     id: "ifafi",
     status: "COMPLETED",
-    tag: "LUXURY HOME RENOVATION",
-    name: "Plastering",
+    tag: "Luxury Home Development",
+    name: "Architecture",
     hero: "images/projects/ifafi-1.jpg",
     gallery: [
       "images/projects/ifafi-1.jpg",
@@ -159,8 +159,8 @@ window.LMB_PROJECTS = [
   {
     id: "grace",
     status: "COMPLETED",
-    tag: "COMMERCIAL APARTMENT RENOVATION",
-    name: "Flooring",
+    tag: "Apartment Renovation",
+    name: "Interior",
     hero: "images/projects/grace-1.jpg",
     gallery: [
       "images/projects/grace-1.jpg",
@@ -172,15 +172,15 @@ window.LMB_PROJECTS = [
   {
     id: "maqungu-offices",
     status: "COMPLETED",
-    tag: "OFFICE RENOVATION",
-    name: "Ceiling",
+    tag: "Home Renovation",
+    name: "Interior",
     hero: "images/projects/maqungu-1.jpg",
     gallery: [
       "images/projects/maqungu-1.jpg",
       "images/projects/maqungu-2.jpg",
       "images/projects/maqungu-3.jpg"
     ],
-    description: "Office interior renovation delivered on a live commercial timeline, upgrading finishes and layout for a professional working environment."
+    description: "Home interior renovation upgrading finishes and layout, delivered to a professional standard."
   },
   {
     id: "liphumile",
@@ -197,8 +197,8 @@ window.LMB_PROJECTS = [
   {
     id: "poswayo",
     status: "COMPLETED",
-    tag: "RESIDENTIAL RENOVATION",
-    name: "Brickwork",
+    tag: "Residential Development",
+    name: "Building",
     hero: "images/projects/poswayo-1.jpg",
     gallery: [
       "images/projects/poswayo-1.jpg",
